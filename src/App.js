@@ -9,7 +9,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Login/>}></Route>
-          <Route path='/ggd' element={<PomodoroTimer/>}></Route>          
+          <Route path='/polodroTimer' element={<PomodoroTimer/>}></Route>          
         </Routes>
       </BrowserRouter>
     </div>

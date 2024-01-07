@@ -13,7 +13,6 @@ const PomodoroTimer = () => {
       interval = setInterval(() => {
         if (seconds === 0) {
           if (minutes === 0) {
-            // Timer is complete, switch to break
             setActive(false);
             setIsBreak(!isBreak);
             setMinutes(isBreak ? 25 : 5);

@@ -9,7 +9,7 @@ function Login() {
   useEffect(() => {
     console.log(localStorage.getItem("email_verified"))
     if (localStorage.getItem('email_verified')) {
-      navigate('/ggd');
+      navigate('/polodroTimer');
     }
   }, [localdata]);
 
